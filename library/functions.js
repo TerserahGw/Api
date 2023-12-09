@@ -5,7 +5,7 @@ const { User } = require("../database/model");
 const filesize = require("../controller/filesize");
 const { user } = require("./settings");
 const pool = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ234567890".split("");
-const creator = "Farhannnnn";
+const creator = "KeiLaSenpai";
 global.hitCount = { count: 0 }
 
 exports.hitCounter = async (add) => {
