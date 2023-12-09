@@ -8,7 +8,7 @@ const {
 } = require("../library/functions");
 const apikeyAndLimit = require("../library/apikeyAndLimit");
 
-router.get("/snow", apikeyAndLimit, async (req, res) => {
+router.get("/snow", async (req, res) => {
 	const text = req.query.text;
 	if (!text) return res.json(loghandler.nottext);
 	await photofunia_text("https://m.photofunia.com/categories/all_effects/snow-sign?server=1", text).then(async result => {
