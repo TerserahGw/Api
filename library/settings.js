@@ -1,13 +1,13 @@
 
 module.exports = {
 	service: "gmail",
-	myEmail: 'ditzzsenpai@gmail.com',
+	myEmail: 'zortysky@gmail.com',
         passEmailApp: '-',
-	limitCount: 40,
-	limitPremium: 9999,
+	limitCount: 150,
+	limitPremium: 1000,
         expiredTokenDb: 3600,
 	dateLimit: "Oktober, 31 2022",
-	profilePath: "/images/farhan.png",
+	profilePath: "/images/keila.png",
 	jwtToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.cThIIoDvwdueQB468K5xDc5633seEFoqwxjF_xSJyQQ",
 	recaptchaKey: {
 		v2SiteKey: "6LdthJshAAAAAIvqTeddyZ-JU1GL_rpZENDX1vp6",
