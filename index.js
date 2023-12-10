@@ -51,7 +51,7 @@ res.on("finish", () => {
 app.use(expressLayout);
 app.use(fileUpload());
 app.use(compression());
-app.use(favicon("./views/favicon.ico"));
+app.use(favicon("./assets/images/keila.png"));
 app.use(express.static("assets"));
 app.use(session({
 	secret: "secret",
